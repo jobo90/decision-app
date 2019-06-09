@@ -2,8 +2,7 @@
   "name": "decision-app",
   "version": "1.0.0",
   "engines": {
-    "node": "10.14.1",
-    "yarn": "1.16.0" 
+    "node": "10.14.1"
   },
   "main": "index.js",
   "author": "Joel Bock",
@@ -14,7 +13,7 @@
     "build:prod": "webpack -p --env production",
     "dev-server": "webpack-dev-server --mode development",
     "start": "node server/server.js",
-    "heroku-postbuild": "yarn run build:prod"
+    "heroku-postbuild": "npm run build:prod"
   },
   "dependencies": {
     "babel-core": "^6.26.3",
