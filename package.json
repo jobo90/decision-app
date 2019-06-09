@@ -1,6 +1,9 @@
 {
   "name": "decision-app",
   "version": "1.0.0",
+  "engines": {
+    "node": "10.14.1"
+  },
   "main": "index.js",
   "author": "Joel Bock",
   "license": "MIT",
